@@ -15,6 +15,7 @@ doCommands(command, name_);
 function doCommands(command , name){
 switch(command){
 
+
 	case "my-tweets":
 	{
 		tweets();
@@ -79,6 +80,7 @@ name = "Mr.+Nobody";
 		
 		var data = "";
 
+body = JSON.parse(body);
 		if (!err && response.statusCode === 200) {
 
 		 data +="Title: "  + body.Title + "\n" ;
